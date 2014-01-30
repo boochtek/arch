@@ -1,6 +1,5 @@
-arch
-====
+Architectural Accessibility Consultants
+=======================================
 
-Web site for Eric Kohring's business
+Web site for Eric Kohring's business, Architectural Accessibility Consultants.
 
-This is a test.
