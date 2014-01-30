@@ -1,4 +1,5 @@
-arch
-====
+Architectural Accessibility Consultants
+=======================================
 
-Web site for Eric Kohring's business
+You need to be on the `gh-page` branch!
+
