@@ -1,5 +1,6 @@
 ---
 title: Home
+layout: default
 ---
 
 People with disabilities are the largest minority in the country.

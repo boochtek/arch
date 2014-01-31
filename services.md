@@ -1,5 +1,6 @@
 ---
 title: Services
+layout: default
 ---
 
 Accessibility Surveys

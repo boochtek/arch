@@ -1,5 +1,6 @@
 ---
 title: Contact Us
+layout: default
 ---
 
 Architectural Accessibility Consultants is a tremendous resource for

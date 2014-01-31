@@ -1,5 +1,6 @@
 ---
 title: About Us
+layout: default
 ---
 
 Eric Kohring, a graduate of the architectural program at Southern
