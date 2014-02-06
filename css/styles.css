@@ -4,6 +4,9 @@
 
 /* Put some spacing around the edges of the page. */ 
 body { margin: 12px; }
+body > .sidebar { float: left; width: 20%; }
+body > main { float: left; width: 60%; min-width: 400px; }
+body > footer { clear: both; }
 
 
 /*
