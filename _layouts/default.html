@@ -1,15 +1,54 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html lang="en" class="no-js">
 
   <head>
+
+    <!-- Define how to handle special characters. -->
     <meta charset="utf-8">
+
+    <!-- The page title. Required. -->
     <title>{{ page.title }}</title>
+
+    <!-- Description of the page. Used by search engines, often to display in search list output. -->
     <meta name="description" content="{{ page.description }}">
-    <meta name="viewport" content="width=device-width">
+
+    <!-- Tell mobile browsers to assume the page is as wide as the device, and initial page zoom level is 1. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Enable HTML 5 elements on older versions of IE. -->
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+    <!-- Make all browsers look basically the same. -->
+    <link rel="stylesheet" href="css/normalize.css" media="all">
+
+    <!-- Provide our own style for the page. -->
+    <link rel="stylesheet" href="css/styles.css" media="all">
+
   </head>
 
   <body>
-{{ content }}
+  
+    <header role="banner">
+      <h1>{{ page.title }}</h1>
+    </header>
+
+    <nav class="sidebar" role="navigation">
+      <ul>
+        <li><a href="home">Home</a></li>
+        <li><a href="about">About Us</a></li>
+        <li><a href="contact">Contact Us</a></li>
+        <li><a href="services">Services</a></li>
+      </ul>
+    </nav>
+
+    <main role="main">
+      {{ content }}
+    </main>
+
+    <footer role="contentinfo">
+      <small>Copyright &copy; 2012-2014</small>
+    </footer>
+
   </body>
 
 </html>
